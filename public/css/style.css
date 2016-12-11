@@ -1,0 +1,91 @@
+body
+{
+    background-color: white; 
+    font-family: "微軟正黑體",Tahoma, Helvetica, Arial;
+    background-color: #F1EBE4;
+}
+.nctu-logo
+{
+    font-size: 40px;
+    color: white;
+    display:block;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #329EAA;
+}
+.navbar1
+{
+    font-size: 21px; 
+}
+.item2
+{
+    vertical-align: middle;
+    display: table-cell;
+}
+.carousel {
+    /*height: 345px;*/
+    vertical-align: middle;
+}
+/*箭頭背景取消*/
+.carousel-control.left, .carousel-control.right{ 
+    background: none !important;
+    filter: progid:none !important;>
+}
+/*圖片置中、大小*/
+.carousel-inner > .item > img{      
+  /*  width:960px;
+    height: 440px;*/
+    margin: auto;
+}
+/*幻燈片大小*/
+#myCarousel     
+{
+    /*height: 440;*/
+
+}
+/*margin vs padding*/
+.feature
+{
+    margin: 0px auto;
+
+}
+.row {
+
+    padding-top: 40px;
+    margin: 0px auto;
+}
+.feature1
+{
+    border-radius: 50%;
+}
+.col-lg-4
+{
+    text-align: center;
+}
+.barfont
+{
+    font-family: Microsoft JhengHei;
+    color: steelblue;
+}
+.icon-bar
+{
+    background-color: black;
+    color: gray;
+}
+.footer1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    margin-top: 20px;
+  
+
+}
+.btn1
+{
+    background-color: #E696AA;
+    color: white;
+}
